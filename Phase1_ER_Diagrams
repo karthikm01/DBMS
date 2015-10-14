@@ -1,0 +1,18 @@
+
+2. Conceptual Database Design – Requirement Analysis
+2.1. Courses
+Courses in “EduCat” are offered by Top notch Industrial sectors and the World’s best universities who are already involved in extra-ordinary research in that particular domain of study. So each course will be designed by the Course Providers in such a way that it offers tremendous insights into that subject based on their experiences and learnings. Basic courses are offered for free of cost and advanced courses are offered for a reasonable fee. Students performing well in the mid terms of the course also have a possibility to get discounts to pay the portion of the remaining fee. Each course carries a unique course id (cid) which will be used starting from course registration until certification of the course. Course Schedule, duration of the course, starting and ending dates of the course will be decided and updated on the website by the instructor of the course. Creating a login id in the website is mandatory and it will be used to uniquely identify the registered user. Course list will be constantly updated and the currently active set of courses will be uniquely represented for the ease of users
+2.2. Course Categories
+EduCat offers wide variety of courses spanning Architecture, Arts & Culture, Biology and life sciences, Business and Management, Chemistry, Engineering, Economics, Law, Philosophy, Social Sciences etc. These courses form the main categories and are accessed in the form of a tree with the complete set of courses as the root node. Course categories are expanded in such a way that user will be able to reach his desired category within 2-3 clicks.
+2.3. Course Materials
+Every course needs to be assisted with resources such as text books, reference books, online labs, online video tutorials and then infrastructure for assignment and project management. A database which will track with the number of videos covering one lecture and its duration and the progress of course work also needs to be done
+2.4. Course Trends
+A new feature has been added in “EduCat” termed “Course Trends”. In this, we will maintain a database of most wanted courses and most searched for keywords and the high-in-demand certifications. Feedback of this will be taken into account and the information will be passed on to the instructor to start the course which is in high demand.
+2.5. Course Impact
+	Another new feature added in our project is the Course Impact metric. This keeps the history of highly participated courses in the past and keeps the statistics of number of certifications granted, number of employers who offered jobs based on that and testimonials of past registered users. This will help current users to gauge the value of the courses
+
+
+Core division of EduCat
+	Core division of EduCat comprises of entities and relationships related to Courses, different categories, course resources and added new features like Course Trending and Course Impact. 
+	This ER diagram in Figure 1 conveys the following inferences. The main entities are Courses, Impact and Categories. Weak entities are Trends and Resources. They are all connected by following relationships. Courses are split into categories. Courses are measured by the impact index. Courses are famed by the trends and finally courses are assisted by resources.( Note that attributes are not represented in Figure 1 and 2 in order to have clarity in diagram.
+ 
